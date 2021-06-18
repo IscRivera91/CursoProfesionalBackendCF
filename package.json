@@ -1,14 +1,25 @@
 {
   "name": "cursoprofesionalbackendcf",
   "version": "1.0.0",
-  "description": "",
+  "description": "Curso Profesional de Backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-session": "^1.4.0",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IscRivera91/CursoProfesionalBackendCF.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IscRivera91/CursoProfesionalBackendCF/issues"
+  },
+  "homepage": "https://github.com/IscRivera91/CursoProfesionalBackendCF#readme"
 }
